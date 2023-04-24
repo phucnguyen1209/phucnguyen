@@ -1,0 +1,175 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+#header{
+    width: 100%;
+    height: 47px;
+    position: fixed;
+    background-color:#000 ;
+}
+
+#header > ul > li {
+    padding: 15px 40px ;
+    display: inline-block;
+    color: white;
+}
+
+#header .nav > li:hover  {
+    color: #000;
+    background-color: #ccc;
+}
+
+#header .nav  li:hover .sub-nav {
+    display: block;
+}
+
+
+#header .nav{
+    display: inline-block;
+    position: relative;
+}
+
+#header .nav .sub-nav {
+    width: 200px ;
+    top: 48px ;
+    left: 546px ;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+    position: absolute;
+    background-color: white ;
+    color: black;
+}
+
+#header .nav .sub-nav {
+    display: none;
+}
+
+#header .nav .sub-nav > li  {
+    padding: 10px 10px;
+    display: block;
+}
+
+#header .nav .sub-nav > li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#header .ti-angle-down {
+    font-size: 12px;
+    margin-left: 4px;
+}
+#header .ti-search {
+    /* background-color: red; */
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 47px;
+    font-size: 20px;
+    color: white;
+    float: right;
+}
+
+#header .ti-search:hover {
+    background-color: red;
+}
+
+
+#slider { 
+    
+    padding-top: 50% ;
+    background-image: url('./img/la.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slider .content-slider {
+    padding-bottom: 49px;
+    color: white;
+    text-align: center;
+}
+
+#slider .content-slider > h2 , #slider .content-slider > h3  {
+    padding: 5px 5px 10px 5px;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content  .content-section {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 16px;
+}
+
+#content .section-heading  { 
+    font-weight: 400;
+    font-size: 30px;
+    margin: 15px 0px ;
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#content .section-sub-heading {
+    opacity: 0.60;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0px ;
+    text-align: center;
+    font-style: italic ; 
+}
+
+
+#content .about-text {
+    margin: 15px 0px ;
+    line-height: 1.5 ; 
+    text-align: justify;
+    font-family:  "Lato", sans-serif ; 
+}
+
+#content .member-list {
+    margin-top: 47px;
+    text-align: center;
+}
+
+#content .member-item {
+    width: calc(100%/4) ; 
+    float: left;
+}
+
+#content .member-item-name {
+    margin: 5px 0px;
+}
+
+#content .img-item {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#content .tour-dates {
+    width: 100%;
+    background-color: #000;
+    
+}
+
+#content {
+
+}
+#footer {
+
+}
